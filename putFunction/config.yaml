@@ -1,0 +1,11 @@
+region: us-west-1
+
+function_name: putFunction
+handler: service.lambda_handler
+role: lambda
+description: Put function
+
+# if access key and secret are left blank, boto will use the credentials
+# defined in the [default] section of ~/.aws/credentials.
+aws_access_key_id: AKIAJJH4AWKX6NZBPMRQ
+aws_secret_access_key: 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
